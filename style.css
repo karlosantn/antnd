@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    font-family: "century-gothic", sans-serif;
+}
+
+/* Cabeçalho */
+#cabecalho{
+  display: grid;
+  grid-auto-flow: column;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: url(./imagens/cabeçalho/cabeçalho1.svg) 1%;
+}
+
+#imgcabeca{
+  margin: 50px 350px 50px 350px;
+  width: 700px;
+  height: 400px;
+}
+
+/* Sobre Nós */
+#titulosobre{
+  text-align: center;
+  background-color: #7A7A7A;
+  color: #ffffff;
+  padding: 25px;
+}
+
+#sobrenos{
+  font-weight: 600;
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+
+#sobre{
+  display: grid;
+  grid-auto-flow: column;
+  color: #ffffff;
+  background-color: #7A7A7A;
+  padding-bottom: 50px;
+}
+
+#textosobre{
+  padding: 90px;
+  text-align: center;
+}
+#imagem{
+  margin-left: 50px;
+  width: 80%;    
+}
+
+#MisVis{
+  background-color: #7A7A7A;
+  color: #ffffff;
+  display: grid;
+  grid-auto-flow: column;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#textoum{
+  text-align: center;
+  font-size: 15px;
+  padding: 25px;
+}
+
+#textodois{
+  text-align: center;
+  font-size: 15px;
+  padding: 25px;
+}
+
+/* Serviços */
+#tituloservicos{
+  background-color: #D9D9D9;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#servicos{
+  background-color: #D9D9D9;
+  display: grid;
+  grid-auto-flow: column;
+  padding: 50px;
+}
+
+#esquerda{
+  display: none;
+  margin-top: 50%;
+}
+
+#idvisual{
+  width: 80%;
+}
+
+#wbdesigner{
+  width: 80%;
+}
+
+#publicidade{
+  display: none;
+  width: 80%;
+}
+
+.card{
+  margin-left: 100px;
+}
+
+#direita{
+  margin-left: 0px;
+}
+
+.seta{
+  margin-top: 40%;
+  cursor: pointer;
+}
+
+.seta:hover{
+  transform: translateY(-7px);
+  transition-duration: 0.5s;
+}
+
+/* Contate-nos */
+#contato{
+  text-align: center;
+}
+
+#tituloformulario{
+  font-size: 25px;
+  margin: 25px;
+  color: #000000;
+}
+
+input{
+  background-color: #EAECE5;
+  width: 300px;
+  height: 40px;
+  margin: 15px;
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+textarea{
+  background-color: #EAECE5;
+  width: 300px;
+  height: 40px;
+  margin: 15px;
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+button{
+  background-color: #247BA0;
+  color: #EAECE5;
+  font-weight: bolder;
+  width: 250px;
+  height: 40px;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #61b8dd;
+  color: white;
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px rgba(100, 97, 97, 0.573);
+  transition-duration: 0.5s;
+}
+
+/* Responsividade */
+
+@media only screen and (max-width: 768px){
+
+*{
+  margin: auto;
+}
+/* Cabeçalho */
+#cabecalho{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+#imgcabeca{
+  margin: 10px;
+  width: 80%;
+  margin-left: 10px;
+}
+
+/* Sobre nós */
+#sobrenos{
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+#sobre{
+  display: flex;
+  flex-direction: column;
+}
+
+#textosobre{
+  font-size: 15px;
+  text-align: justify;
+  padding: 30px;
+}
+
+#imagem{
+  margin-left: 40px;
+}
+
+#MisVis{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+#tituloum{
+  font-weight: 600;
+  font-size: 40px;
+}
+
+#textoum{
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+#titulodois{
+  font-weight: 600;
+  font-size: 40px;
+}
+
+#textodois{
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Serviços */
+#tituloservicos{
+  font-size: 15px;
+}
+
+#servicos{
+  display: flex;
+  flex-direction: column;
+}
+
+.card{
+  padding-left: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#idvisual, #wbdesigner, #publicidade{
+  width: 95%;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+/* Contato */
+input{
+  background-color: #EAECE5;
+  width: 200px;
+  height: 50px;
+  margin: 15px;
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+textarea{
+  background-color: #EAECE5;
+  width: 200px;
+  height: 50px;
+  margin: 15px;
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+button{
+  background-color: #247BA0;
+  color: #EAECE5;
+  font-weight: bolder;
+  width: 100px;
+  height: 50px;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+button:hover{
+background-color: #61b8dd;
+color: white;
+transform: translateY(-7px);
+box-shadow: 0px 15px 20px rgba(100, 97, 97, 0.573);
+transition-duration: 0.5s;
+}
+}

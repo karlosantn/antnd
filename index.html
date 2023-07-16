@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./imagens/cabeçalho/logo.svg"/>
+    <link rel="stylesheet" href="https://use.typekit.net/rxr4sgl.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ANTN Designer</title>
+</head>
+<body>
+    <!-- Menu Superior
+    <div id="menu">
+
+        <div>
+            <p>Sobre nós</p>
+        </div>
+
+        <div>
+            <p>Linha do tempo</p>
+        </div>
+
+        <div>
+            <p>Serviços</p>
+        </div>
+
+        <div>
+            <p>Habilidades</p>
+        </div>
+
+        <div>
+            <p>Contatos</p>
+        </div>
+    </div>
+ -->
+    <!-- Cabeçalho -->
+    <div id="cabecalho">
+        <img id="imgcabeca" src="./imagens/cabeçalho/ANTN Designer.svg" alt="">
+    </div>
+
+    <!-- Sobre Nós -->
+    <div id="titulosobre">
+        <h1 id="sobrenos">Sobre nós</h1>
+    </div>
+
+    <div id="sobre">
+        <div>
+            <img id="imagem" src="./imagens/sobrenos/logo02.svg" alt="">
+        </div>
+
+        <div id="textosobre">
+        <p>A ANTN Designer é uma empresa de design especializada 
+            em criar soluções criativas e inovadoras para seus clientes.
+            Somos uma equipe de profissionais apaixonados por design
+            e dedicados a entregar projetos de alta qualidade que
+            atendam às necessidades e expectativas de nossos
+            clientes.<br><br>
+            Nossa empresa valoriza a criatividade, a colaboração e
+            atenção aos detalhes. Acreditamos que o design
+            desempenha um papel fundamental no sucesso de uma
+            empresa, pois uma boa identidade visual e uma experiência 
+            de usuário atraente podem diferenciar uma marca e atrair
+            clientes.<br><br>
+            Como equipe, temos ampla experiência em diferentes áreas
+            do design, incluindo design gráfico, design de logotipo,
+            design de embalagens, design de interface de usuário (UI) e
+            design de experiência do usuário (UX). Estamos sempre
+            atualizados com as tendências mais recentes do design e
+            utilizamos as melhores práticas da indústria para garantir
+            resultados excepcionais.</p>
+        </div>
+    </div>
+
+    <div id="MisVis">
+        <div>
+             <h1 id="tituloum">Visão</h1>
+             <p id="textoum">Nossa visão na ANTN Designer é ser reconhecida como uma das principais empresas de
+                design, conhecida por sua criatividade, inovação e excelência em soluções de design. 
+                Fornecendo aos nossos clientes serviços de alta qualidade que impulsionem o sucesso
+                de suas marcas e negócios. Almejamos ser uma referência na indústria do design,
+                sempre em busca de novas tendências e tecnologias para oferecer soluções de design 
+                inovadoras e impactantes.</p>
+        </div>
+
+        <div>
+            <h1 id="titulodois">Missão</h1>
+            <p  id="textodois">Nossa missão na ANTN Designer é fornecer soluções de design personalizadas e sob 
+                medida, atendendo às necessidades e objetivos únicos de cada cliente. Nosso objetivo é
+                criar designs visualmente atraentes, funcionais e memoráveis, que transmitam a
+                mensagem certa e criem uma conexão emocional com o público-alvo. Buscamos ser 
+                parceiros estratégicos de nossos clientes, oferecendo serviços de consultoria e 
+                orientação em design para ajudá-los a alcançar seus objetivos de negócio
+        </div>
+    </div>
+
+    <!-- Serviços -->
+    <div id="tituloservicos">
+        <h1>Nossos serviços</h1>
+    </div>
+    <div id="servicos">
+        <div>
+            <img class="seta" onclick="RolarParaEsquerda()" id="esquerda" src="imagens/icones/esquerda.svg" alt="">
+        </div>
+
+        <div>
+            <img class="card" id="idvisual" src="./imagens/serviços/idvisual.svg" alt="Error">
+        </div>
+
+        <div>
+            <img class="card" id="wbdesigner" src="./imagens/serviços/wbdesigner.svg" alt="Error">
+        </div>
+
+        <div>
+            <img class="card" id="publicidade" src="./imagens/serviços/publi.svg" alt="Error">
+        </div>
+
+        <div>
+            <img class="seta" onclick="RolarParaDireita()" id="direita" src="imagens/icones/direita.svg" alt="">
+        </div>
+    </div>
+
+    <!-- Contate-nos -->
+    <div id="contato">
+        <h1 id="tituloformulario">Contate-nos</h1>
+        <form action="https://api.sheetmonkey.io/form/ber8mf6swqPXtxy5Rx6RuD" method="post">
+            <input type="text" placeholder="Nome" name="Name" required><br>
+            <input type="email" placeholder="E-mail" name="Email" required><br>
+            <label for="mensagem">Escreva a sua mensagem:</label><br>
+            <textarea id="mensagem" name="message" rows="10" cols="50" required></textarea><br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
