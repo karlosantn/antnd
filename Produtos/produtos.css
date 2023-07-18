@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    font-family: "century-gothic", sans-serif;
+}
+
+/* Cabeçalho */
+#titulocabecalho{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#produtos{
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 150px;
+}
+
+.texto{
+    margin-bottom: 15px;
+}
+
+img{
+    width: 250px;
+    border-radius: 15px;
+}
+
+.card{
+    margin: 15px;
+    text-align: center;
+}
+
+img:hover{
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px rgba(100, 97, 97, 0.573);
+    transition-duration: 0.5s;
+}

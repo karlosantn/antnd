@@ -121,6 +121,12 @@
   transition-duration: 0.5s;
 }
 
+#saiba{
+  background-color: #D9D9D9;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 /* Contate-nos */
 #contato{
   text-align: center;
