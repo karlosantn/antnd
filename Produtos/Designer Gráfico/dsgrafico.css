@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    font-family: "century-gothic", sans-serif;
+    background: #d9d9d9;
+}
+
+#tituloid{
+    padding: 50px;
+    text-align: center;
+}
+
+#corpo{
+    margin: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#corpodois{
+    margin: 25px;
+    text-align: justify;
+}
+
+
+img{
+    width: 100%;
+}
+
+p{
+    margin-left: 15px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px){
+    #corpo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    p{
+        margin-left: 0px;
+    }
+
+    #corpodois{
+        margin-top: 0px;
+    }
+
+    #txtcorpo{
+        margin-top: 10px;
+    }
+}

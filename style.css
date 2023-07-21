@@ -111,6 +111,11 @@
   margin-left: 0px;
 }
 
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .seta{
   margin-top: 40%;
   cursor: pointer;
