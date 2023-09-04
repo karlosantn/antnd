@@ -126,13 +126,13 @@
     <!-- Contate-nos -->
     <div id="contato">
         <h1 id="tituloformulario">Contate-nos</h1>
-        <form action="https://api.sheetmonkey.io/form/ber8mf6swqPXtxy5Rx6RuD" method="post">
-            <input type="text" placeholder="Nome" name="Name" required><br>
-            <input type="email" placeholder="E-mail" name="Email" required><br>
-            <label for="mensagem">Escreva a sua mensagem:</label><br>
-            <textarea id="mensagem" name="message" rows="10" cols="50" required></textarea><br>
-            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
-            <button type="submit">Enviar</button>
+        <form action="#" method="get" onsubmit="abrirWhatsapp()">
+            <input type="text" name="nome" id="nome" placeholder="Nome" required><br>
+            <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required><br>
+            <input type="email" name="email" id="email" placeholder="E-mail" required><br>
+            <textarea name="msg" id="msg" placeholder="Mensagem" cols="30" rows="5" required></textarea><br>
+            <button type="submit"><span>Enviar pedido</span>
+            </button>
         </form>
     </div>
     <script src="index.js"></script>
