@@ -24,7 +24,7 @@ function abrirWhatsapp() {
       var telefone = document.getElementById("telefone").value;
       var email = document.getElementById("email").value;
       var msg = document.getElementById("msg").value;
-      var url = "https://wa.me/+5531993152234?text="
+      var url = "https://wa.me/+5531997657736?text="
         + "*Formulário de Contato*" + "%0a"
         + "%0a"
         + "*Nome*: " + nome + "%0a"
